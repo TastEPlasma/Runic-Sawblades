@@ -12,8 +12,6 @@ local update_material
 local flag_comp
 local countdown_amount
 
---test
-
 local function get_table_of_elements()
     local table_of_elements = {
         ["MANA_REDUCE"] = "magic_liquid_mana_regeneration",
