@@ -1,0 +1,13 @@
+9-12-2026
+    Adjusted Scintillating type to be more common.
+    Adjusted Soothing type to be less common at lower tiers
+    Adjusted Mirrored type to be slightly less common
+    Adjusted all types to be slightly less common across all tiers
+    Adjusted the lower level blades to favor a particular early tier
+    Slightly adjusted wait times or mana cost on some types
+    Added 22 special interactions between modifier spells and sawblades
+    Added 5 special interactions between Apotheosis modifier spells and sawblades
+    ->Important Note: Interactions only occur when the modifying spell is in the slot
+                      directly before the sawblade spell.  No other combination works.
+    Tweaked damage, projectile life, hits/s, etc to further differentiate blades
+    Changed Impelled Sawblade to produce Acceleratium instead of Hastium
