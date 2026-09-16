@@ -209,11 +209,9 @@ Runic_Sawblades = {
 	}
 }
 
-function InsertAllToTable()
+(function()
 	for k=1,#Runic_Sawblades
         do local v = Runic_Sawblades[k]
             table.insert(actions,v)
 	end
-end
-
-InsertAllToTable()
+end)()
