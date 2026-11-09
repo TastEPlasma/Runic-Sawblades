@@ -56,7 +56,7 @@ local function get_table_of_elements()
     return table_of_elements
 end
 
---material modification based on special interactions
+--material modification based on modifier interactions
 if comp ~= nil then
     if storage ~= nil then
         local material_comp

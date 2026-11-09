@@ -12,7 +12,7 @@ Runic_Sawblades = {
 		-- max_uses = 3,
 		action 		= function()
 			add_projectile("mods/runic_sawblades/files/entities/projectiles/deck/acid_runeblade.xml")
-			c.fire_rate_wait = c.fire_rate_wait + 18      	
+			c.fire_rate_wait = c.fire_rate_wait + 24
 		end,
 	},
 	{
@@ -108,7 +108,7 @@ Runic_Sawblades = {
 		-- max_uses = 3,
 		action 		= function()
 			add_projectile("mods/runic_sawblades/files/entities/projectiles/deck/lava_runeblade.xml")
-        	c.fire_rate_wait = c.fire_rate_wait + 12
+        	c.fire_rate_wait = c.fire_rate_wait + 24
 		end,
 	},
 	{
