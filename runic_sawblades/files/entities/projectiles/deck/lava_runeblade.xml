@@ -2,9 +2,9 @@
 
 	<Base file="data/entities/base_projectile.xml" >
 		<VelocityComponent
-			gravity_y="250"
-			air_friction="0.6"
-			mass="0.05"
+			gravity_y="300"
+			air_friction="0.4"
+			mass="0.1"
 			>
 		</VelocityComponent>
 	</Base>
@@ -44,8 +44,8 @@
     _enabled="1" 
     lob_min="0.5"
     lob_max="0.7"
-    speed_min="350"
-    speed_max="450"
+    speed_min="250"
+    speed_max="350"
     friction="1"
     direction_random_rad="0.01"
     on_death_explode="0"
@@ -64,8 +64,8 @@
     create_shell_casing="0"
     muzzle_flash_file="data/entities/particles/muzzle_flashes/muzzle_flash_medium.xml"
     shoot_light_flash_r="255"
-    shoot_light_flash_g="240"
-    shoot_light_flash_b="30"
+    shoot_light_flash_g="128"
+    shoot_light_flash_b="0"
     shoot_light_flash_radius="64"
     die_on_low_velocity="0"
     die_on_low_velocity_limit="5"

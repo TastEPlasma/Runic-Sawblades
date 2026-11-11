@@ -18,19 +18,19 @@ end
 
 function OnPlayerSpawned( player_entity ) -- This runs when player entity has been created
 	local x, y = EntityGetTransform(player_entity)
-  CreateItemActionEntity("RUNICSAWBLADE_ACID", x+20, y)
-  CreateItemActionEntity("RUNICSAWBLADE_BLOOD", x+30, y)
-  CreateItemActionEntity("RUNICSAWBLADE_FLUMMOXIUM", x+40, y)
-  CreateItemActionEntity("RUNICSAWBLADE_FREEZING", x+50, y)
-  CreateItemActionEntity("RUNICSAWBLADE_HASTIUM", x+60, y)
-  CreateItemActionEntity("RUNICSAWBLADE_HEALIUM", x+70, y)
-  CreateItemActionEntity("RUNICSAWBLADE_LAVA", x+80, y)
-  CreateItemActionEntity("RUNICSAWBLADE_MIMICIUM", x+90, y)
-  CreateItemActionEntity("RUNICSAWBLADE_POISON", x+100, y-20)
-  CreateItemActionEntity("RUNICSAWBLADE_SCINTILLATING", x-20, y)
-  CreateItemActionEntity("RUNICSAWBLADE_SLIME", x-30, y)
-  CreateItemActionEntity("RUNICSAWBLADE_TOXIC", x-40, y)
-  CreateItemActionEntity("RUNICSAWBLADE_WATER", x-50, y)
+  -- CreateItemActionEntity("RUNICSAWBLADE_ACID", x+20, y)
+  -- CreateItemActionEntity("RUNICSAWBLADE_BLOOD", x+30, y)
+  -- CreateItemActionEntity("RUNICSAWBLADE_FLUMMOXIUM", x+40, y)
+  -- CreateItemActionEntity("RUNICSAWBLADE_FREEZING", x+50, y)
+  -- CreateItemActionEntity("RUNICSAWBLADE_HASTIUM", x+60, y)
+  -- CreateItemActionEntity("RUNICSAWBLADE_HEALIUM", x+70, y)
+  -- CreateItemActionEntity("RUNICSAWBLADE_LAVA", x+80, y)
+  -- CreateItemActionEntity("RUNICSAWBLADE_MIMICIUM", x+90, y)
+  -- CreateItemActionEntity("RUNICSAWBLADE_POISON", x+100, y-20)
+  -- CreateItemActionEntity("RUNICSAWBLADE_SCINTILLATING", x-20, y)
+  -- CreateItemActionEntity("RUNICSAWBLADE_SLIME", x-30, y)
+  -- CreateItemActionEntity("RUNICSAWBLADE_TOXIC", x-40, y)
+  -- CreateItemActionEntity("RUNICSAWBLADE_WATER", x-50, y)
 end
 
 --[[

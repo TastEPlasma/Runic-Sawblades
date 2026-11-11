@@ -11,3 +11,13 @@
                       directly before the sawblade spell.  No other combination works.
     Tweaked damage, projectile life, hits/s, etc to further differentiate blades
     Changed Impelled Sawblade to produce Acceleratium instead of Hastium
+
+11-10-2026
+    Added 48 unique interactions between specific blades and specific enemy blood types
+        -Generally 2-3 per produced material type.  The enemy blood type of regular blood is largely untouched.
+    Colored muzzle flashes to match material
+    Further tweaked individual blades minor properties to differentiate
+    Nerfed Impelled blade a bit: since it hits so many times per second, reduced blood ouput
+    General refactoring and optimization
+    Added a SPOILERS cheat sheet to the Noita/mods/Runic_Sawblades folder
+    Now a total of 75 interactions on top of the base 13 spells

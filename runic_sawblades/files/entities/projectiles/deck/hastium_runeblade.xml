@@ -31,7 +31,7 @@
 
     <VariableStorageComponent
         name="added_material_per_hit"
-        value_float="-0.001"
+        value_float="-0.03"
     ></VariableStorageComponent>
 
     <GameAreaEffectComponent
@@ -45,7 +45,7 @@
     lob_min="0.5"
     lob_max="0.7"
     speed_min="350"
-    speed_max="450"
+    speed_max="550"
     friction="1"
     direction_random_rad="0.01"
     on_death_explode="0"
@@ -63,9 +63,9 @@
     hit_particle_force_multiplier="0.1"
     create_shell_casing="0"
     muzzle_flash_file="data/entities/particles/muzzle_flashes/muzzle_flash_medium.xml"
-    shoot_light_flash_r="255"
-    shoot_light_flash_g="240"
-    shoot_light_flash_b="30"
+    shoot_light_flash_r="0"
+    shoot_light_flash_g="255"
+    shoot_light_flash_b="128"
     shoot_light_flash_radius="64"
     die_on_low_velocity="0"
     die_on_low_velocity_limit="5"
@@ -76,8 +76,7 @@
     velocity_sets_rotation="1"
     velocity_updates_animation="1"
     velocity_sets_scale="0"
-    ragdoll_fx_on_collision="BLOOD_EXPLOSION"
-	knockback_force="1.3"
+	knockback_force="1.7"
     physics_impulse_coeff="1500"
     >
 	<damage_by_type

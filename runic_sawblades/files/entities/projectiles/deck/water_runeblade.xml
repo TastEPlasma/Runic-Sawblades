@@ -3,11 +3,16 @@
 	<Base file="data/entities/base_projectile.xml" >
 		<VelocityComponent
 			gravity_y="250"
-			air_friction="0.6"
-			mass="0.05"
+			air_friction="0.3"
+			mass="0.02"
 			>
 		</VelocityComponent>
 	</Base>
+
+    <VariableStorageComponent
+        name="exceptional_interaction_flag"
+        value_bool="1"
+    ></VariableStorageComponent>
 
     <VariableStorageComponent
         name="checked_for_material_change"
@@ -31,7 +36,7 @@
 
     <VariableStorageComponent
         name="added_material_per_hit"
-        value_float=".01"
+        value_float="-.01"
     ></VariableStorageComponent>
 
     <GameAreaEffectComponent
@@ -63,9 +68,9 @@
     hit_particle_force_multiplier="0.1"
     create_shell_casing="0"
     muzzle_flash_file="data/entities/particles/muzzle_flashes/muzzle_flash_medium.xml"
-    shoot_light_flash_r="255"
-    shoot_light_flash_g="240"
-    shoot_light_flash_b="30"
+    shoot_light_flash_r="230"
+    shoot_light_flash_g="230"
+    shoot_light_flash_b="255"
     shoot_light_flash_radius="64"
     die_on_low_velocity="0"
     die_on_low_velocity_limit="5"
@@ -77,7 +82,7 @@
     velocity_updates_animation="1"
     velocity_sets_scale="0"
     ragdoll_fx_on_collision="BLOOD_EXPLOSION"
-	knockback_force="1.3"
+	knockback_force="1.0"
     physics_impulse_coeff="1500"
     >
 	<damage_by_type

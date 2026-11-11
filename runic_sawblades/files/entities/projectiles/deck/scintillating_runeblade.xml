@@ -31,7 +31,7 @@
 
     <VariableStorageComponent
         name="added_material_per_hit"
-        value_float=".01"
+        value_float=".03"
     ></VariableStorageComponent>
 
     <GameAreaEffectComponent

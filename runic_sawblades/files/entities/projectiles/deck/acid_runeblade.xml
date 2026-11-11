@@ -31,7 +31,7 @@
 
     <VariableStorageComponent
         name="added_material_per_hit"
-        value_float="-0.001"
+        value_float="-0.005"
     ></VariableStorageComponent>
 
     <GameAreaEffectComponent
@@ -63,9 +63,9 @@
     hit_particle_force_multiplier="0.1"
     create_shell_casing="0"
     muzzle_flash_file="data/entities/particles/muzzle_flashes/muzzle_flash_medium.xml"
-    shoot_light_flash_r="255"
+    shoot_light_flash_r="20"
     shoot_light_flash_g="240"
-    shoot_light_flash_b="30"
+    shoot_light_flash_b="20"
     shoot_light_flash_radius="64"
     die_on_low_velocity="0"
     die_on_low_velocity_limit="5"
